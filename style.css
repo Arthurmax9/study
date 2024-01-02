@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #000080;
+    border-bottom: 1px solid #000030;
+  }
+  
+  .navbar-brand {
+    color: #ffffff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+  .navbar-toggler {
+    border-color: #ffffff;
+    border-radius: 0;
+    background-color: #ffffff;
+    color: #000030;
+    float: right;
+    margin-right: 10px;
+  }
+  
+  .navbar-nav {
+    float: right;
+    margin-right: 10px;
+  }
+  
+  .nav-link {
+    color: #ffffff;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+  
+  .nav-link.active {
+    color: #ffffff;
+    background-color: #000030;
+  }
+  
+  .form-inline {
+    float: right;
+    margin-right: 10px;
+  }
+  
+  .form-control {
+    border-radius: 0;
+    background-color: #ffffff;
+    color: #000030;
+  }
+  
+  .btn-outline-light {
+    background-color: #ffffff;
+    border: 1px solid #000030;
+    color: #000030;
+  }
+  
