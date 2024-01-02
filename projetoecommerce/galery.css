@@ -1,0 +1,32 @@
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.galery img {
+    width: 24%;
+    margin-bottom: 16px;
+}
+
+.image {
+    width: 100%;
+    max-width: 100%; /* Alteração para garantir que a imagem não ultrapasse o contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    border-radius: 10px;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Outras regras CSS permanecem inalteradas */
+
+/* Responsividade para telas pequenas */
+@media screen and (max-width: 600px) {
+    .galery img {
+        width: 100%;
+        margin-bottom: 8px;
+    }
+}

@@ -1,0 +1,25 @@
+.imgprimary img{
+    margin-top:89px;
+width: 90%;
+height:600px;
+
+}
+
+.imgprimary{
+    margin-top: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: wheat;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.375);
+    
+}
+
+.imgprimary h3{
+    font-size: 45px;
+    margin: 5px 0 4px;
+}
+.imgprimary p{
+    font-size: 27px;
+}
